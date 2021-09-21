@@ -8,8 +8,8 @@
 </head>
 <body>
     <form action="pagina2.php" method="POST">
-        Ingrese usuario: 
-        Ingrese password: 
+        Ingrese usuario: <input type="text" name="campousuario" id="campousuario">
+        Ingrese password: <input type="password" name="campoclave" id="campoclave">
         <input type="submit" value="Confirmar">
     </form>
     Se almacena dos variables de session<br>

@@ -10,9 +10,9 @@
     <title>Document</title>
 </head>
 <body>
-    Las variables de sesion son
+    Las variables de sesion son: <br>
     USER = <?php echo $_SESSION['user'];?>
-    PASSWORD =     <?php echo $_SESSION['pass'];?>
+    PASSWORD =     <?php echo $_SESSION['clave'];?>
 
     <a href="cerrar_sesion.php">Cerrar sesion</a>
     

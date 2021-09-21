@@ -2,7 +2,7 @@
     session_start();
     $usuario = $_POST['campousuario'];
     $pass = $_POST['campoclave'];
-
+    //Grabamos las variables
     $_SESSION['user']= $usuario;
     $_SESSION['clave']=$pass;
     ?>
