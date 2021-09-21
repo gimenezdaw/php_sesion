@@ -14,5 +14,7 @@
     USER = <?php echo $_SESSION['user'];?>
     PASSWORD =     <?php echo $_SESSION['pass'];?>
 
+    <a href="cerrar_sesion.php">Cerrar sesion</a>
+    
 </body>
 </html>

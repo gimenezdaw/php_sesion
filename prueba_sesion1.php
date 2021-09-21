@@ -7,7 +7,9 @@
     <title>Variables SESSION</title>
 </head>
 <body>
+    <form action="pagina2.php" method="POST">
+
+    </form>
     Se almacena dos variables de session<br>
-    <a href='pagina3.php'> Ir a la pagina 3</a>
 </body>
 </html>
